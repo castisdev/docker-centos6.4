@@ -3,6 +3,7 @@ FROM oss17888/centos6.4
 
 # Install EPEL repo
 RUN yum install -y epel-release
+RUN yum upgrade -y ca-certificates --disablerepo=epel ; yum clean all -y
 
 # Install
 RUN yum install -y \

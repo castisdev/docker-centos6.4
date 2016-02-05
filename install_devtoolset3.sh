@@ -1,5 +1,4 @@
 #!/bin/bash -e
-yum upgrade -y ca-certificates --disablerepo=epel ; yum clean all -y
 yum install -y scl-utils ; yum clean all -y
 wget https://www.softwarecollections.org/en/scls/rhscl/devtoolset-3/epel-6-x86_64/download/rhscl-devtoolset-3-epel-6-x86_64.noarch.rpm
 yum install -y rhscl-devtoolset-3-*.noarch.rpm ; yum clean all -y
