@@ -10,4 +10,3 @@
 ```
 $ sudo docker run -it --rm castis/centos6.4
 ```
-
